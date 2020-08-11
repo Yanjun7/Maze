@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "156370316467",
+    "firebase_url": "https://maze-ea94e.firebaseio.com",
+    "project_id": "maze-ea94e",
+    "storage_bucket": "maze-ea94e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156370316467:android:ed8fe19b349b75895954c6",
+        "android_client_info": {
+          "package_name": "com.yanjun.maze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156370316467-rnfmqp75ghbnl8mamn0l7pp141tc8et6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtjZL1ds5fY-fTj9VmYGBOqK8aRymIfZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156370316467-rnfmqp75ghbnl8mamn0l7pp141tc8et6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

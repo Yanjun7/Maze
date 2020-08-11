@@ -18,6 +18,10 @@ android {
         }
     }
 }
+apply plugin: 'com.android.application'
+
+apply plugin: 'com.google.gms.google-services'
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -25,6 +29,10 @@ dependencies {
 
     // lib for material library
     implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
+    implementation 'com.google.firebase:firebase-database:19.2.0'
 
 
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

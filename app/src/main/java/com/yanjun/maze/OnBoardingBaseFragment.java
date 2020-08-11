@@ -12,10 +12,14 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public abstract class OnBoardingBaseFragment extends Fragment {
     protected EditText usernameEditText;
     protected EditText passwordEditText;
     protected Button submitButton;
+    protected DatabaseReference database;
 
     @Nullable
     @Override
@@ -26,6 +30,8 @@ public abstract class OnBoardingBaseFragment extends Fragment {
         usernameEditText = (EditText) view.findViewById(R.id.editTextLogin);
         passwordEditText = (EditText) view.findViewById(R.id.editTextPassword);
         submitButton = (Button) view.findViewById(R.id.submit);
+        database = FirebaseDatabase.getInstance().getReference();
+
         return view;
     }
 
